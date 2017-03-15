@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint testPod.podspec' to ensure this is a
+#  Be sure to run `pod spec lint testPodLh.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "testPod"
+  s.name         = "testPodLh"
   s.version      = "1.0.0"
-  s.summary      = "A testPod."
+  s.summary      = "testPodLh."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,10 +25,10 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-			222
+test
                    DESC
 
-  s.homepage     = "https://github.com/qzlh521/testPod"
+  s.homepage     = "https://github.com/qzlh521/testPodLh"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/qzlh521/testPod.git", :tag => "#{s.version}" }
+  s.source       = { :git => "http://github.com/qzlh521/testPodLh.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
