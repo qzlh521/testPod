@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "testPod"
   s.version      = "0.0.1"
-  s.summary      = "first creat cocoaPods for the  testPod."
+  s.summary      = "A testPod."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-  			test
+			222
                    DESC
 
   s.homepage     = "https://github.com/qzlh521/testPod"
@@ -40,7 +40,7 @@ Pod::Spec.new do |s|
   #
 
   s.license      = "MIT"
-  # s.license      = { :type => "MIT", :file => "LICENSE" }
+  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -53,7 +53,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "qzlh521" => "qzlh521@gmail.com" }
+  s.author             = { "qzlh521" => "13261991016@163.com" }
   # Or just: s.author    = "qzlh521"
   # s.authors            = { "qzlh521" => "13261991016@163.com" }
   # s.social_media_url   = "http://twitter.com/qzlh521"
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/qzlh521/testPod.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/qzlh521/testPod.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  =  "**/*.{h,m}"
+  s.source_files  = "**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
