@@ -161,5 +161,10 @@
     
     return escaped;
 }
+- (void)testUpdate{
+    /*
+     测试更新pod库
+     */
+}
 
 @end
